@@ -123,12 +123,20 @@ export default async function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="mt-48 w-full max-w-7xl pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center text-xs opacity-40 z-10 pb-12">
-        <p>© 2026 GridsMicro. All rights reserved.</p>
-        <div className="flex space-x-6 mt-4 md:mt-0">
-          <Link href={SITE_LINKS.legal.privacy}>Privacy Policy</Link>
-          <Link href={SITE_LINKS.legal.terms}>Terms of Service</Link>
-          <Link href={SITE_LINKS.legal.security}>Security</Link>
+      <footer className="mt-48 w-full max-w-7xl pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center text-xs opacity-40 z-10 pb-12 gap-6">
+        <div className="flex flex-col md:flex-row items-center gap-4">
+          <p>© 2026 GridsMicro. All rights reserved.</p>
+          <span className="hidden md:block opacity-20">|</span>
+          <div className="flex items-center gap-2 px-4 py-2 bg-white/5 rounded-full border border-white/10 hover:border-primary/50 hover:bg-primary/10 transition-colors cursor-pointer group">
+            <span className="text-xl">☕</span>
+            <span>Buy me a coffee: </span>
+            <span className="font-bold text-white group-hover:text-primary transition-colors">PromptPay {SITE_LINKS.support.promptpay}</span>
+          </div>
+        </div>
+        <div className="flex space-x-6">
+          <Link href={SITE_LINKS.legal.privacy} className="hover:text-white transition-colors">Privacy Policy</Link>
+          <Link href={SITE_LINKS.legal.terms} className="hover:text-white transition-colors">Terms of Service</Link>
+          <Link href={SITE_LINKS.legal.security} className="hover:text-white transition-colors">Security</Link>
         </div>
       </footer>
     </main>

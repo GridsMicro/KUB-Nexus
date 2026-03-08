@@ -24,6 +24,9 @@ export const SITE_LINKS = {
         bitkubNext: 'https://accounts.bitkubnext.com',
         apiManagement: 'https://www.bitkub.com/th/api-management',
     },
+    support: {
+        promptpay: '0655419166',
+    },
     legal: {
         privacy: '/privacy',
         terms: '/terms',
