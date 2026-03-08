@@ -20,7 +20,9 @@ export const SITE_LINKS = {
     external: {
         bitkub: 'https://www.bitkub.com',
         kubchain: 'https://www.bitkubchain.com',
-        github: 'https://github.com/GridsMicro/Bitkub-Dev', // Hypothetical
+        github: 'https://github.com/GridsMicro/KUB-Nexus',
+        bitkubNext: 'https://accounts.bitkubnext.com',
+        apiManagement: 'https://www.bitkub.com/th/api-management',
     },
     legal: {
         privacy: '/privacy',
