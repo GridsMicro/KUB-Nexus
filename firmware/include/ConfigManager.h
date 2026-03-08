@@ -14,6 +14,7 @@ struct ProjectConfig {
   char wifi_pass[65];
   char api_key[65];
   char api_secret[65];
+  char line_token[65];
   bool is_setup;
 };
 

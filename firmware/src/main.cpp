@@ -10,6 +10,7 @@
 
 #include "ConfigManager.h"
 #include "FailsafeManager.h"
+#include "NotificationManager.h"
 #include "OracleManager.h"
 #include "RNPacket.h"
 #include "WiFiManager.h"
@@ -26,6 +27,7 @@ void setup() {
   WiFiManager::begin();   // Handle WiFi and Setup Portal
   OracleManager::begin(); // KUB Chain Oracle Bridge
   FailsafeManager::begin();
+  NotificationManager::begin();
 
   Serial.println("[KUB-Nexus] Ready: Autonomous Eco-Trading Gateway");
 }
@@ -35,6 +37,7 @@ void loop() {
   FailsafeManager::update();
   WiFiManager::update();
   OracleManager::update(); // Sync data to KUB Chain
+  NotificationManager::update();
 
   // 2. Example: Send Telemetry every 5 seconds
 
