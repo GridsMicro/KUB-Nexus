@@ -6,14 +6,16 @@
 
 ### **📋 รายการอุปกรณ์ (Bill of Materials)**
 
-| ลำดับ | อุปกรณ์ | ข้อมูลทางเทคนิค | จำนวน |
-| :--- | :--- | :--- | :--- |
-| 1 | **ESP32 DevKit V1** | 30-pin, Dual Core, WiFi/BT | 1 |
-| 2 | **OLED Display 0.96"** | SSD1306, I2C (128x64) | 1 |
-| 3 | **RGB LED** | Common Cathode (+R, +G, +B, GND) | 1 |
-| 4 | **Active Buzzer** | 5V DC | 1 |
-| 5 | **Tactile Switch** | Momentary Push Button | 1 |
-| 6 | **Resistors** | 220Ω (x3 for LED), 10kΩ (x1 for Button) | 1 ชุด |
+| ลำดับ | อุปกรณ์ | ข้อมูลทางเทคนิค | จำนวน | แหล่งสั่งซื้อ (Lazada) |
+| :--- | :--- | :--- | :--- | :--- |
+| 1 | **ESP32 DevKit V1** | 30-pin, Dual Core, WiFi/BT | 1 | [🛒 สั่งซื้อ ESP32](https://c.lazada.co.th/t/c.YOUR_AFFILIATE_LINK_1) |
+| 2 | **OLED Display 0.96"** | SSD1306, I2C (128x64) | 1 | [🛒 สั่งซื้อจอ OLED](https://c.lazada.co.th/t/c.YOUR_AFFILIATE_LINK_2) |
+| 3 | **RGB LED** | Common Cathode (+R, +G, +B, GND) | 1 | [🛒 สั่งซื้อหลอด LED](https://c.lazada.co.th/t/c.YOUR_AFFILIATE_LINK_3) |
+| 4 | **Active Buzzer** | 5V DC | 1 | [🛒 สั่งซื้อ Buzzer](https://c.lazada.co.th/t/c.YOUR_AFFILIATE_LINK_4) |
+| 5 | **Tactile Switch** | Momentary Push Button | 1 | [🛒 สั่งซื้อสวิตช์ปุ่มกด](https://c.lazada.co.th/t/c.YOUR_AFFILIATE_LINK_5) |
+| 6 | **Resistors (ตัวต้านทาน)** | 220Ω (x3) และ 10kΩ (x1) | 1 ชุด | [🛒 สั่งซื้อชุดความต้านทาน](https://c.lazada.co.th/t/c.YOUR_AFFILIATE_LINK_6) |
+
+> 🏷️ **หมายเหตุสำหรับนักพัฒนา:** ลิงก์สั่งซื้อด้านบนเป็นตัวอย่างสำหรับการทำ **Affiliate Marketing** คุณสามารถนำลิงก์จากระบบ Lazada Affiliate ของคุณเองมาเปลี่ยนตรง `YOUR_AFFILIATE_LINK` เพื่อรับค่าคอมมิชชันจากการที่คอมมูนิตี้ซื้ออะไหล่ไปประกอบตามโปรเจกต์ของคุณครับ! เติบโตไปด้วยกันครับ 🌱✨
 
 ---
 

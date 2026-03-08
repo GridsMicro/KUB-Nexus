@@ -26,14 +26,22 @@ export default function HardwareDoc() {
                 {/* Requirements Grid */}
                 <section className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     {[
-                        { icon: "🧠", title: "The Brain", desc: "ESP32 DevKit V1 (30 pins)" },
-                        { icon: "📊", title: "Display", desc: "OLED 0.96 inch (SSD1306)" },
-                        { icon: "🛠️", title: "Status", desc: "RGB LED & Buzzer Alert" },
+                        { icon: "🧠", title: "The Brain", desc: "ESP32 DevKit V1 (30 pins)", link: "https://c.lazada.co.th/t/c.YOUR_AFFILIATE_LINK_1" },
+                        { icon: "📊", title: "Display", desc: "OLED 0.96 inch (SSD1306)", link: "https://c.lazada.co.th/t/c.YOUR_AFFILIATE_LINK_2" },
+                        { icon: "🛠️", title: "Status", desc: "RGB LED & Buzzer Alert & Switch", link: "https://c.lazada.co.th/t/c.YOUR_AFFILIATE_LINK_3" },
                     ].map((item, i) => (
-                        <div key={i} className="glass-card p-6 border-white/5 bg-white/5">
+                        <div key={i} className="glass-card p-6 border-white/5 bg-white/5 relative group">
                             <span className="text-4xl mb-4 block">{item.icon}</span>
                             <h3 className="text-lg font-bold mb-1">{item.title}</h3>
-                            <p className="text-sm opacity-50">{item.desc}</p>
+                            <p className="text-sm opacity-50 mb-6">{item.desc}</p>
+                            <a
+                                href={item.link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-block text-xs font-bold text-primary opacity-80 hover:opacity-100 hover:text-white transition-all bg-primary/10 hover:bg-primary px-4 py-2 rounded-full shadow-lg"
+                            >
+                                🛒 สั่งซื้อ (Lazada)
+                            </a>
                         </div>
                     ))}
                 </section>
