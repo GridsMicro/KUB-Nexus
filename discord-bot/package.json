@@ -1,0 +1,15 @@
+{
+    "name": "kubnexus-discord-bot",
+    "version": "1.0.0",
+    "description": "KUB-Nexus Community AI Support Bot",
+    "main": "src/index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "node --watch src/index.js"
+    },
+    "dependencies": {
+        "discord.js": "^14.18.0",
+        "dotenv": "^16.4.7"
+    }
+}
