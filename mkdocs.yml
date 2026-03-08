@@ -1,0 +1,45 @@
+site_name: KUB-Nexus Documentation
+site_description: The Autonomous Eco-Trading Gateway by GridsMicro
+site_author: GridsMicro
+site_url: https://GridsMicro.github.io/KUB-Nexus/
+
+theme:
+  name: material
+  language: th
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+    - search.share
+
+nav:
+  - 'Oswas (Home)': index.md
+  - 'Project Vision': proposals/KUB_Nexus_Proposal.md
+  - 'User Manual': manual/user_guide.md
+  - 'Ecosystem Research': research/bitkub_ecosystem_overview.md
+  - 'Q&A Knowledge Base': qa/qa_logs.md
+  - 'Developer Identity': user_profile/developer_identity.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.magiclink
+  - pymdownx.tasklist:
+      custom_checkbox: true
