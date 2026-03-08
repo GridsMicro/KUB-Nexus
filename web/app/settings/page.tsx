@@ -19,8 +19,8 @@ export default function SettingsPage() {
     };
 
     const handleBitkubNext = () => {
-        // Mock Bitkub NEXT Integration
-        alert("กำลังเชื่อมต่อกับ Bitkub NEXT... (ฟีเจอร์นี้จะพร้อมใช้งานในเวอร์ชันถัดไปผ่าน OAuth 2.0)");
+        // พุ่งไปยังหน้าล็อกอินของ Bitkub NEXT เพื่อความสมจริงใน UX สมัยใหม่
+        window.location.href = SITE_LINKS.external.bitkubNext;
     };
 
     return (
