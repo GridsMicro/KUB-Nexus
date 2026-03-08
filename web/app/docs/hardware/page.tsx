@@ -26,9 +26,9 @@ export default function HardwareDoc() {
                 {/* Requirements Grid */}
                 <section className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     {[
-                        { icon: "🧠", title: "The Brain", desc: "ESP32 DevKit V1 (30 pins)", link: "https://c.lazada.co.th/t/c.YOUR_AFFILIATE_LINK_1" },
-                        { icon: "📊", title: "Display", desc: "OLED 0.96 inch (SSD1306)", link: "https://c.lazada.co.th/t/c.YOUR_AFFILIATE_LINK_2" },
-                        { icon: "🛠️", title: "Status", desc: "RGB LED & Buzzer Alert & Switch", link: "https://c.lazada.co.th/t/c.YOUR_AFFILIATE_LINK_3" },
+                        { icon: "🧠", title: "The Brain", desc: "ESP32 DevKit V1 (30 pins)", link: "https://s.lazada.co.th/s.ZdX4uZ?cc&t=p-i1mwIIi-sJH26c3" },
+                        { icon: "📊", title: "Display", desc: "OLED 0.96 inch (SSD1306)", link: "https://s.lazada.co.th/s.ZdwHl?cc" },
+                        { icon: "🛠️", title: "Status", desc: "RGB LED & Buzzer Alert & Switch", link: "https://s.lazada.co.th/s.Zdwu6?cc" },
                     ].map((item, i) => (
                         <div key={i} className="glass-card p-6 border-white/5 bg-white/5 relative group">
                             <span className="text-4xl mb-4 block">{item.icon}</span>

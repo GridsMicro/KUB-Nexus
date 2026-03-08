@@ -8,12 +8,12 @@
 
 | ลำดับ | อุปกรณ์ | ข้อมูลทางเทคนิค | จำนวน | แหล่งสั่งซื้อ (Lazada) |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | **ESP32 DevKit V1** | 30-pin, Dual Core, WiFi/BT | 1 | [🛒 สั่งซื้อ ESP32](https://c.lazada.co.th/t/c.YOUR_AFFILIATE_LINK_1) |
-| 2 | **OLED Display 0.96"** | SSD1306, I2C (128x64) | 1 | [🛒 สั่งซื้อจอ OLED](https://c.lazada.co.th/t/c.YOUR_AFFILIATE_LINK_2) |
-| 3 | **RGB LED** | Common Cathode (+R, +G, +B, GND) | 1 | [🛒 สั่งซื้อหลอด LED](https://c.lazada.co.th/t/c.YOUR_AFFILIATE_LINK_3) |
-| 4 | **Active Buzzer** | 5V DC | 1 | [🛒 สั่งซื้อ Buzzer](https://c.lazada.co.th/t/c.YOUR_AFFILIATE_LINK_4) |
-| 5 | **Tactile Switch** | Momentary Push Button | 1 | [🛒 สั่งซื้อสวิตช์ปุ่มกด](https://c.lazada.co.th/t/c.YOUR_AFFILIATE_LINK_5) |
-| 6 | **Resistors (ตัวต้านทาน)** | 220Ω (x3) และ 10kΩ (x1) | 1 ชุด | [🛒 สั่งซื้อชุดความต้านทาน](https://c.lazada.co.th/t/c.YOUR_AFFILIATE_LINK_6) |
+| 1 | **ESP32 DevKit V1** | 30-pin, Dual Core, WiFi/BT | 1 | [🛒 สั่งซื้อ ESP32](https://s.lazada.co.th/s.ZdX4uZ?cc&t=p-i1mwIIi-sJH26c3) |
+| 2 | **OLED Display 0.96"** | SSD1306, I2C (128x64) | 1 | [🛒 สั่งซื้อจอ OLED](https://s.lazada.co.th/s.ZdwHl?cc) |
+| 3 | **RGB LED** | Common Cathode (+R, +G, +B, GND) | 1 | [🛒 สั่งซื้อหลอด LED](https://s.lazada.co.th/s.ZdwHs?cc) |
+| 4 | **Active Buzzer** | 5V DC | 1 | [🛒 สั่งซื้อ Buzzer](https://s.lazada.co.th/s.Zdwu6?cc) |
+| 5 | **Tactile Switch** | Momentary Push Button | 1 | [🛒 สั่งซื้อสวิตช์ปุ่มกด](https://s.lazada.co.th/s.ZdwuH?cc) |
+| 6 | **Resistors (ตัวต้านทาน)** | 220Ω (x3) และ 10kΩ (x1) | 1 ชุด | [🛒 สั่งซื้อชุดความต้านทาน](https://s.lazada.co.th/s.ZdwFp?cc) |
 
 > 🏷️ **หมายเหตุสำหรับนักพัฒนา:** ลิงก์สั่งซื้อด้านบนเป็นตัวอย่างสำหรับการทำ **Affiliate Marketing** คุณสามารถนำลิงก์จากระบบ Lazada Affiliate ของคุณเองมาเปลี่ยนตรง `YOUR_AFFILIATE_LINK` เพื่อรับค่าคอมมิชชันจากการที่คอมมูนิตี้ซื้ออะไหล่ไปประกอบตามโปรเจกต์ของคุณครับ! เติบโตไปด้วยกันครับ 🌱✨
 
