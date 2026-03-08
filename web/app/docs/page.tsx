@@ -5,6 +5,7 @@ export default function DocsPage() {
     const docs = [
         { title: "Project Proposal", desc: "วิสัยทัศน์และโครงสร้างโครงการ KUB-Nexus", path: SITE_LINKS.docs.proposal },
         { title: "User Guide", desc: "คู่มือการตั้งค่าสำหรับผู้ใช้งานทั่วไป", path: SITE_LINKS.docs.manual },
+        { title: "Hardware & Assembly", desc: "ผังการต่อวงจรและรายการอุปกรณ์สำหรับสร้าง Gateway", path: "/docs/hardware" },
         { title: "Developer Identity", desc: "มาตรฐานการพัฒนาและกฎเหล็กของ GridsMicro", path: SITE_LINKS.docs.identity },
         { title: "Q&A Logs", desc: "บันทึกฐานความรู้และคำตอบทางเทคนิค", path: SITE_LINKS.docs.qa },
         { title: "Vercel Deployment", desc: "ขั้นตอนการนำหน้าเว็บขึ้นระบบ Cloud อย่างปลอดภัย", path: "/docs/vercel-guide" },

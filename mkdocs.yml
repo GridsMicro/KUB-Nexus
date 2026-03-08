@@ -31,7 +31,9 @@ theme:
 nav:
   - 'Oswas (Home)': index.md
   - 'Project Vision': proposals/KUB_Nexus_Proposal.md
-  - 'User Manual': manual/user_guide.md
+  - 'User Manual': 
+      - 'Setup Guide': manual/user_guide.md
+      - 'Hardware & Assembly': manual/hardware_assembly.md
   - 'Ecosystem Research': research/bitkub_ecosystem_overview.md
   - 'Q&A Knowledge Base': qa/qa_logs.md
   - 'Developer Identity': user_profile/developer_identity.md
