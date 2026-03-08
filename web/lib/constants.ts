@@ -13,6 +13,7 @@ export const SITE_LINKS = {
         identity: '/docs/identity',
         qa: '/docs/qa',
     },
+    store: '/store',
     sections: {
         ecosystem: '#ecosystem',
         technology: '#technology',

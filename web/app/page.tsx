@@ -33,6 +33,10 @@ export default async function Home() {
           <a href={SITE_LINKS.sections.ecosystem} className="hover:opacity-100 transition-opacity">Ecosystem</a>
           <a href={SITE_LINKS.sections.technology} className="hover:opacity-100 transition-opacity">Technology</a>
           <Link href={SITE_LINKS.docs.root} className="hover:opacity-100 transition-opacity">Docs</Link>
+          <Link href={SITE_LINKS.store} className="hover:text-primary hover:opacity-100 transition-colors font-bold text-white relative group">
+            <span className="absolute -top-3 -right-6 bg-red-500 text-[9px] px-2 py-0.5 rounded-full text-white shadow-lg shadow-red-500/50 animate-pulse">HOT</span>
+            Store
+          </Link>
           <Link href={SITE_LINKS.settings} className="hover:opacity-100 transition-opacity">Settings</Link>
         </div>
         <Link href={SITE_LINKS.settings}>
