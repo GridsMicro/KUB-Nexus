@@ -37,7 +37,9 @@ nav:
       - 'Notification Setup (LINE)': manual/notification_setup.md
   - 'Ecosystem Research': research/bitkub_ecosystem_overview.md
   - 'Q&A Knowledge Base': qa/qa_logs.md
-  - 'Developer Identity': user_profile/developer_identity.md
+  - 'Developer & Ecosystem': 
+      - 'Identity & Standard': user_profile/developer_identity.md
+      - 'Monetization Registry': user_profile/affiliate_registry.md
 
 markdown_extensions:
   - admonition
