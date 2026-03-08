@@ -28,6 +28,9 @@ export const SITE_LINKS = {
     support: {
         promptpay: '0655419166',
     },
+    community: {
+        discord: 'https://discord.gg/WWBzayAc',
+    },
     legal: {
         privacy: '/privacy',
         terms: '/terms',
